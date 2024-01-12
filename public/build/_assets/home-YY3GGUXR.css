@@ -1,0 +1,22 @@
+/* app/styles/home.css */
+body {
+  text-align: center;
+}
+#cta {
+  color: var(--gray-green);
+}
+#cta a {
+  display: block;
+  color: inherit;
+  background-color: var(--beige);
+  text-decoration: none;
+  margin: 1.5rem auto;
+  transition: .2s all;
+  padding: .5rem 2.5rem;
+  width: fit-content;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+}
+#cta a:hover {
+  background-color: #999281;
+}
